@@ -1,0 +1,157 @@
+body
+{
+	font-family:all;
+	font-size: 15px;
+	line-height:1.5;
+	background-color:#e3ffe8;
+
+}
+.container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+header{
+	background-color: #808080;
+	color:#ffffff;
+	padding-top: 10px;
+	border-bottom:   #cc0000 3px solid;
+}
+header a{
+	 color: #ffffff;
+	 text-transform: uppercase;
+	 font-size: 15px;
+}
+header ul{
+	margin: 0;
+	padding: 0;
+}
+header li{
+	float: left;
+	display: inline;
+	padding: 0 30px 0px 30px ;
+}
+header nav{
+	float: right;
+	margin-top: 30px;
+}
+header #branding{
+
+	float: left;
+}
+header .highlight{
+	color:   #cc0000;
+
+}
+header a:hover{
+	color:  #8099cc;
+	font-size: 20px;
+
+}
+
+#showcase{
+	background-color:  #000066;
+	height: 300px;
+	text-align: center;
+	font-stretch: expanded;
+}
+#showcase h1{
+	margin-top: 50px;
+	font-size: 50px;
+	color: white;
+	margin-bottom: 10px;
+	font-stretch: expanded;
+}
+#showcase p{
+	font-size: 15px;
+	color: white;
+}
+#news{
+	padding: 8px;
+	background-color:   #008080;
+
+}
+#news h1{
+	color: white;
+	float: left;
+}
+#news form{
+	float: right;
+	margin-top: 20px;
+	margin-right: 20px;
+
+}
+#news input[type="email"]{
+	padding:4px;
+	height: 25px;
+	width: 250px;
+}
+#news input[type="submit"]{
+	padding:5px;
+	height: 37px;
+	width: 100px;
+	background-color:  #ff3300;
+}
+#boxes{
+	margin-top: 20px;
+}
+ #boxes .box{
+	float:left;
+	width:30%;
+	text-align: center;
+	padding: 10px;
+}
+#boxes .box img{
+	width:auto;
+	height: auto;
+
+}
+footer{
+	background-color:  #00cc66
+;
+	text-align: center;
+	padding: 25px;
+	color: white;
+	font-size: 20px;
+	border-top: #3300cc 5px solid;
+
+}
+#abt{
+
+}
+.first{
+	float: left;
+	width:70%;
+	text-align: left;
+}
+.second{
+	float: right;
+	width: 30%;
+	background-color:#003366;
+	color: white;
+	padding: auto;
+}
+
+.third{
+	text-align: left;
+	width: 70%;
+
+}
+#services{
+	float: left;
+	width: 60%
+}
+#sidebar{
+	float: right;
+	width: 25%;
+	background-color:#003366;
+	padding-left: 8px;
+	padding-bottom: 5px;
+	color: white;
+}
+
+.quote input[type="submit"]{
+	padding:5px;
+	height: 37px;
+	width: 100px;
+	background-color:  #ff3300;
